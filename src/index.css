@@ -1,0 +1,33 @@
+/* 1. Import the Font from Google */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 2. Apply it globally */
+@layer base {
+  html {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    -webkit-font-smoothing: antialiased; /* Makes text look sharper */
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  body {
+    @apply bg-[#f8f9fa] text-gray-900;
+  }
+}
+
+/* Custom Utilities for the Map & Scrollbars */
+.grayscale-map .leaflet-tile-pane {
+  filter: grayscale(100%) contrast(90%) brightness(105%);
+}
+
+/* Hide Scrollbar but keep functionality */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
