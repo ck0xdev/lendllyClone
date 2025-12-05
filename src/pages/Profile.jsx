@@ -21,7 +21,7 @@ const Profile = () => {
   // Mock Data
   const myListings = FEATURED_ITEMS.slice(0, 3);
   const reviews = [
-    { id: 1, user: "Rahul Varma", rating: 5, text: "Great experience renting from Chintan! The item was exactly as described and he was very helpful with the setup.", date: "2 days ago" },
+    { id: 1, user: "Rahul Varma", rating: 5, text: "Great experience renting from Ck! The item was exactly as described and he was very helpful with the setup.", date: "2 days ago" },
     { id: 2, user: "Priya Sharma", rating: 4, text: "Smooth transaction, but pickup location was a bit far. Otherwise perfect.", date: "1 week ago" }
   ];
 
@@ -118,7 +118,7 @@ const Profile = () => {
                  </div>
                  <div className="flex items-center gap-2 text-sm font-bold text-slate-700">
                     <div className="p-1.5 bg-cyan-50 rounded-lg text-cyan-600"><MapPin size={16} /></div>
-                    Surat, Gujarat
+                    Gujarat
                  </div>
                  <div className="flex items-center gap-2 text-sm font-bold text-slate-700">
                     <div className="p-1.5 bg-purple-50 rounded-lg text-purple-600"><ShieldCheck size={16} /></div>
@@ -277,10 +277,10 @@ const Profile = () => {
                <h3 className="text-xl font-bold text-slate-900 mb-6">Account Settings</h3>
                <form className="space-y-6">
                   <div className="grid md:grid-cols-2 gap-6">
-                     <InputGroup label="First Name" value="Chintan" />
-                     <InputGroup label="Last Name" value="Kukadiya" />
+                     <InputGroup label="First Name" value="Ck" />
+                     <InputGroup label="Last Name" value="ck" />
                   </div>
-                  <InputGroup label="Email" value="kukadiyachintan026@gmail.com" disabled />
+                  <InputGroup label="Email" value="ck0x@gmail.com" disabled />
                   
                   <div className="pt-4 flex gap-4">
                      <button className="bg-slate-900 text-white px-8 py-3 rounded-xl font-bold hover:bg-slate-800 transition-colors shadow-lg active:scale-95">
