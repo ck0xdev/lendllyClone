@@ -120,8 +120,8 @@ const Navbar = () => {
                 {showProfileMenu && (
                   <div className="absolute right-0 mt-3 w-72 bg-white rounded-2xl shadow-xl border border-gray-100 py-2 animate-in fade-in zoom-in-95 duration-200 origin-top-right ring-1 ring-black/5">
                     <div className="px-5 py-4 border-b border-gray-50 bg-gray-50/50">
-                      <p className="font-bold text-gray-900 text-base">Chintan Kukadiya</p>
-                      <p className="text-xs text-gray-500 truncate mt-0.5">kukadiyachintan026@gmail.com</p>
+                      <p className="font-bold text-gray-900 text-base">Ck</p>
+                      <p className="text-xs text-gray-500 truncate mt-0.5">ck0x@gmail.com</p>
                     </div>
                     <div className="py-2">
                       <DropdownItem to="/profile" icon={User} label="Profile" />

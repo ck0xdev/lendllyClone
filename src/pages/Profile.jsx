@@ -87,11 +87,11 @@ const Profile = () => {
               <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-4">
                 <div>
                    <h1 className="text-3xl font-extrabold text-slate-900 tracking-tight flex items-center gap-2">
-                     Chintan Kukadiya
+                     Ck
                      <ShieldCheck size={22} className="text-[#06b6d4] fill-cyan-50" />
                    </h1>
                    <div className="flex items-center gap-3 text-sm font-medium mt-1">
-                      <span className="text-slate-500">@chintan_dev</span>
+                      <span className="text-slate-500">@ck0x</span>
                       <span className="text-slate-300">•</span>
                       <span className="text-slate-500">Joined Dec 2024</span>
                    </div>
@@ -166,12 +166,12 @@ const Profile = () => {
                
                <div className="grid md:grid-cols-2 gap-x-12 gap-y-8 mb-10">
                   <div className="space-y-6">
-                     <InfoItem label="Full Name" value="Chintan Kukadiya" />
-                     <InfoItem label="Email Address" value="kukadiyachintan026@gmail.com" />
-                     <InfoItem label="Phone Number" value="+91 98765 43210" verified />
+                     <InfoItem label="Full Name" value="Ck" />
+                     <InfoItem label="Email Address" value="ckx0xgmail.com" />
+                     <InfoItem label="Phone Number" value="+91 98765 *****" verified />
                   </div>
                   <div className="space-y-6">
-                     <InfoItem label="Location" value="Surat, Gujarat, India" />
+                     <InfoItem label="Location" value="Gujarat, India" />
                      <InfoItem label="Languages" value="English, Hindi, Gujarati" />
                      <div className="group">
                         <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">Bio</p>
